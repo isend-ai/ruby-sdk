@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "isend"
+
+# You can add fixtures and/or initialization code here to make
+# interactive experiments easier. You can also use a different console,
+# if you like. (Tip: IRB and PRY are excellent alternatives.)
+
+# (If you use this, don't forget to add pry to the Gemfile as well)
+# require "pry"
+# Pry.start
+
+require "irb"
+IRB.start(__FILE__) 
